@@ -9,26 +9,26 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "20406318"))
-API_HASH = getenv("API_HASH", "db1152481ef51ffa42015f1209b020bf")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
-EVAL = list(map(int, getenv("EVAL", "6987557895").split()))
+EVAL = list(map(int, getenv("EVAL", "6899244704").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "6316266142:AAHgg1rZ5zQx_yXErXaNaN-42q9v2GMu6Dk")
+BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","shaeep43")
+OWNER_USERNAME = getenv("OWNER_USERNAME","IAM_PIYUSH0264")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "LSG_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "DAISY_12_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Lsg bot")
+BOT_NAME = getenv("BOT_NAME" , "DAISY")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "LSG_MUSIC_ASSISTANT")
+ASSUSERNAME = getenv("ASSUSERNAME" , "DAISYASSIST")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://MRDAXX:MRDAXX@mrdaxx.prky3aj.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", 1002184638782))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002111155780))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6045293810))
+OWNER_ID = int(getenv("OWNER_ID", 6899244704))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/IR-O/DAXXMUSIC",
+    "https://github.com/DREAMERS-BOTS/DAXXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LSG_MUSIC_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/iro_x_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PIYUSH_HUBS")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PIYUSH_HUBS")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQE3YC4AM7BVw0I9E_iRDYVbipXXChEgve-K1Xz8MGkV6mtvNxm2DgsVl2Dj4yfq9thxcXQx8QpTMsYz67VsHC2fTnkcIYJJU9s6sKRvnfoB5sQks2MqEa9cjGJD6KnzM1P7fEDqmt4G534a72ebNCyQz1l_ur1CVZ7wLMbTvh_8gcYo8mGFI7EQCBSv6OneoTBPz1FqQ6KiueKacK5Nl8HlWSln18CTZYnmJrXpUYH99IroAMOWQE2UD_S-lJTnPmOXY0mGDNHxWTm4EAGvJnd1sPRdkzOscyEgyH6vK3EBnbRjozYkStEugrzLpObRJk2x_phVL2TqXidKyfjrkRP0c7pDjQAAAAFGAG7NAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
