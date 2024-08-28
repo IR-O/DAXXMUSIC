@@ -12,17 +12,17 @@ load_dotenv()
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-EVAL = list(map(int, getenv("EVAL", "6899244704").split()))
+EVAL = list(map(int, getenv("EVAL", "6045293810").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","IAM_PIYUSH0264")
+OWNER_USERNAME = getenv("OWNER_USERNAME","LsgGodS")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "DAISY_12_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "LSG_MUSIC_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "DAISY")
+BOT_NAME = getenv("BOT_NAME" , "Lsg bot")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "DAISYASSIST")
+ASSUSERNAME = getenv("ASSUSERNAME" , "LSG_MUSIC_ASSISTANT")
 # ---------------------------------------------------------
 
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002111155780))
+LOGGER_ID = int(getenv("LOGGER_ID", 1002184638782))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6899244704))
+OWNER_ID = int(getenv("OWNER_ID", 6987557895))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DREAMERS-BOTS/DAXXMUSIC",
+    "https://github.com/IR-O/DAXXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PIYUSH_HUBS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PIYUSH_HUBS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LSG_MUSIC_SUPPORT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/iro_x_support")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
