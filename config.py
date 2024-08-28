@@ -16,7 +16,7 @@ EVAL = list(map(int, getenv("EVAL", "6987557895").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "6316266142:AAHgg1rZ5zQx_yXErXaNaN-42q9v2GMu6Dk")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","LsgGodS")
+OWNER_USERNAME = getenv("OWNER_USERNAME","shaeep43")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "LSG_MUSIC_BOT")
 # --------------------------------------------------------
@@ -40,7 +40,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", 1002184638782))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6987557895))
+OWNER_ID = int(getenv("OWNER_ID", 6045293810))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
